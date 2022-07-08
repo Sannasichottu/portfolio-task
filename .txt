@@ -1,42 +1,21 @@
-.dst{
-    background-color:rgba(161, 164, 168, 0.507);
-    width: 100%;
-    min-height: 50%;
-    position: relative;
-    overflow: hidden;
-    padding: 20px 0px;
-}
-
-.box-a1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 400px;
-    padding-top: 3rem;
-}
-
-.card-a1, .card-a2, .card-a3{
-    height: 300px;
-    width: 285px;
-    padding: 20px 35px;
-    margin: 15px;
-    position: relative;
-    overflow: hidden;
-    text-align: center;
-}
-
-.card-a1 img,.card-a2 img, .card-a3 img{
-    width: 25%;
-    height: 20%;
-    z-index: 10;
-    display: flex;
-    text-align:right;
-    flex-wrap: wrap;
-    margin: 30px 30px;
-}
-
-.card-a1 h5{
-    color: rgb(155, 26, 26);
-    font-size: 20px;
-    margin-bottom: 15px;
-}
+<div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="images/logo-godrej.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-oppo.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-coca-cola.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-paypal.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-philips.png">
+                </div>
+            </div>
+        </div>
+    </div>

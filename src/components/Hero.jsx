@@ -5,6 +5,8 @@ import Service from "./Service";
 import Portfolio from "./Portfolio";
 import Sucess from "./Sucess";
 import About from "./About";
+import Workflow from "./Workflow";
+import Blog from "./Blog";
 
 const Hero = () => {
     return(
@@ -33,6 +35,8 @@ const Hero = () => {
             <Portfolio />
             <Sucess />
             <About />
+            <Workflow />
+            <Blog />
         </>
     )
 }

@@ -1,0 +1,84 @@
+.list{
+    padding: 3rem;
+}
+.list1,.list2, .list3,.list4{
+    display: flex;
+    flex-direction: row;
+    gap: 7rem;
+  }
+
+.list1 h2,.list2 h2, .list3 h2,.list4 h2,.list5 h2{
+    color: rgba(145, 143, 143, 0.808);
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding-top:1rem;
+    padding-left: 5rem;
+}
+
+.list1 p,.list2 p, .list3 p,.list4 p,.list5 p{
+    color: red;
+    font-size: 13px;
+    padding-left: 5rem;
+    height: 80%;
+    color: rgba(173, 162, 162, 0.555);
+
+}
+
+
+.numberCircle1, .numberCircle2,.numberCircle3,
+.numberCircle4, .numberCircle5, .numberCircle6,
+.numberCircle7, .numberCircle8, .numberCircle9 {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 16px;
+
+
+}
+.numberCircle1 span, .numberCircle2 span,.numberCircle3 span,
+.numberCircle4 span, .numberCircle5 span, .numberCircle6 span,
+.numberCircle7 span, .numberCircle8 span, .numberCircle9 span{
+    color:white;
+    text-align: center;
+    font: 20px Arial, sans-serif;
+}
+
+.numberCircle1{
+    background: rgb(69, 38, 209);
+    color: white;
+}
+
+
+.numberCircle2{
+    background: rgb(96, 90, 184);
+    color: white;
+} 
+.numberCircle3{
+    background: rgb(211, 214, 46);
+    color: white;
+}
+.numberCircle4{
+    background: rgb(252, 129, 129);
+    color: white;
+} 
+.numberCircle5{
+    background: rgb(71, 53, 105);
+    color: white;
+} 
+.numberCircle6{
+    background: rgb(219, 137, 59);
+    color: white;
+} 
+.numberCircle7{
+    background: rgb(57, 231, 179);
+    color: white;
+}
+.numberCircle8{
+    background: rgb(243, 73, 200);
+    color: white;
+} 
+.numberCircle9{
+    background: rgb(199, 38, 38);
+    color: white;
+} 
