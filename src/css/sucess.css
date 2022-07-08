@@ -1,0 +1,85 @@
+.sucess{
+    width: 100%;
+    padding: 25px 0px;
+}
+
+.title h3{
+    color: rgb(82, 78, 78);
+    font-size: 34px;
+    width: 780px;
+    margin: auto;
+    text-align: center;
+}
+
+.title p{
+    color: rgb(82, 78, 78);
+    padding-top: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+.box0{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    padding: 1rem;
+}
+
+.card-1, .card-2, .card-3 {
+    height: 100px;
+    width: 100px;
+    margin: 45px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.card-1{
+    background: #6277bbd3;
+}
+.card-2{
+    background: #d375b7d3;
+}
+.card-3{
+    background: #d19045d3;
+}
+
+
+.card-1 h3, .card-2 h3, .card-3 h3{
+    display: flex;
+    text-align: center;
+    margin: 33px 32px;
+    align-content: stretch;
+    justify-content: flex-start;
+    align-items: baseline;
+    flex-wrap: nowrap;
+    color: aliceblue;
+}
+
+.desc .desc1 p{
+    color: rgb(82, 78, 78);
+
+    width: 780px;
+    margin-top:-33px;
+    margin-left: 265px;
+    text-align: center;
+
+}
+
+.desc .desc2 p{
+    color: rgb(82, 78, 78);
+    width: 780px;
+    margin-top:-43px;
+    margin-left: 450px;
+    text-align: center;
+
+}
+.desc .desc3 p{
+    color: rgb(82, 78, 78);
+    width: 780px;
+    margin-top:-41px;
+    margin-left:645px;
+    text-align: center;
+}
