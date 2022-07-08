@@ -1,0 +1,64 @@
+.dst{
+    background-color:rgba(161, 164, 168, 0.507);
+    width: 100%;
+    min-height: 50%;
+    position: relative;
+    overflow: hidden;
+    padding: 20px 0px;
+}
+
+.box-a1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    padding-top: 3rem;
+}
+
+.card-a1, .card-a2, .card-a3{
+    height: 300px;
+    width: 285px;
+    padding: 20px 35px;
+    background: rgb(165, 113, 113);
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    
+}
+
+.card-a1{
+    background-image: url(https://media.istockphoto.com/photos/detail-of-a-laptop-keyboard-picture-id1198515525?k=20&m=1198515525&s=170667a&w=0&h=izrWnwjT2Gdma85mVX2C_89EoT_o2ltkYFXSDYp2GRo=);
+}
+
+.card-a3{
+    background-image: url(https://media.istockphoto.com/photos/shot-of-a-hacker-using-a-laptop-picture-id1327818236?k=20&m=1327818236&s=170667a&w=0&h=eYvbOsjRT41fhoP-wlRPzlYSP7hWystEfn_NnTiJMcQ=);
+}
+
+.card-a2{
+    background-image: url(https://images.unsplash.com/photo-1623520333087-62b8793e3d23?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHw%3D&w=1000&q=80);
+}
+
+.card-a1 img,.card-a2 img, .card-a3 img{
+    width: 25%;
+    height: 20%;
+    z-index: 10;
+    display: flex;
+    text-align:right;
+    flex-wrap: wrap;
+    margin: 30px 30px;
+}
+
+.card-a1 h5, .card-a2 h5, .card-a3 h5{
+    color:white;
+    font-size: 30px;
+    margin-top:-1.8rem;
+    margin-left: -4.4rem;
+}
+
+.card-a1 p,.card-a2 p,.card-a3 p{
+    color:#dfdfc5;
+    font-size: 23px;
+    margin-top: -1rem;
+
+}

@@ -1,75 +1,42 @@
-import React from "react";
-import '../css/portfolio.css'
-
-
-const Portfolio = () => {
-    return (
-        <>
-            <section>
-
-                <div className="container h-wrapper">
-                    <div className="row">
-                        {/* Left Side */}
-                        <div className="col-md-4 h-left">
-                            <h2>Provide You best<br />Best Ui Service</h2>
-                            <span>Mobile App Design and Development Studio. You can hire us</span>
-                            <div className="buttons">
-                                <button className="btn button" style={{ background: "#0000CD", color: "white" }}>🤝 Wave Me</button>
-                            </div>
-                        </div>
-                        {/* Right Side */}
-
-                        <div className="col-md-8 h-right">
-
-                        <div className="box">
-                    <div className="card1">
-                        <img src="https://i.im.ge/2022/07/07/uctogc.png" alt="WebsiteUI" />
-                        
-                    </div>
-
-                    <div className="card2">
-                        <img src="https://i.im.ge/2022/07/07/ugoEFL.png" alt="WebsiteUI" />
-                        
-                    </div>
-
-                </div>
-
-
-                <div className="box">
-                    <div className="card1">
-                        <img src="https://i.im.ge/2022/07/07/uctogc.png" alt="WebsiteUI" />
-                        
-                    </div>
-
-                    <div className="card2">
-                        <img src="https://i.im.ge/2022/07/07/ugoEFL.png" alt="WebsiteUI" />
-                        
-                    </div>
-
-                </div>
-
-                <div className="box">
-                    <div className="card1">
-                        <img src="https://i.im.ge/2022/07/07/uctogc.png" alt="WebsiteUI" />
-                    </div>
-
-                    <div className="card2">
-                        <img src="https://i.im.ge/2022/07/07/ugoEFL.png" alt="WebsiteUI" />
-                        
-                    </div>
-
-                </div>
-
-
-
-
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-        </>
-    )
+.dst{
+    background-color:rgba(161, 164, 168, 0.507);
+    width: 100%;
+    min-height: 50%;
+    position: relative;
+    overflow: hidden;
+    padding: 20px 0px;
 }
 
-export default Portfolio;
+.box-a1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    padding-top: 3rem;
+}
+
+.card-a1, .card-a2, .card-a3{
+    height: 300px;
+    width: 285px;
+    padding: 20px 35px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card-a1 img,.card-a2 img, .card-a3 img{
+    width: 25%;
+    height: 20%;
+    z-index: 10;
+    display: flex;
+    text-align:right;
+    flex-wrap: wrap;
+    margin: 30px 30px;
+}
+
+.card-a1 h5{
+    color: rgb(155, 26, 26);
+    font-size: 20px;
+    margin-bottom: 15px;
+}

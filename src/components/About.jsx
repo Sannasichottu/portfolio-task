@@ -1,5 +1,6 @@
 import React from "react";
 import '../css/about.css'
+import Design from "./Design";
 
 const About = () => {
     return (
@@ -17,7 +18,7 @@ const About = () => {
                     <h2>Cris Angela</h2>
                     <span>Head Of CsWeb</span>
                 </div>
-                
+
                 <div className="line"></div>
 
                 <div className="row03">
@@ -28,14 +29,16 @@ const About = () => {
                     </div>
 
                     <div className="about-right">
-                    <div className="buttons1">
-                                <button className="btn button" style={{background:"#0000CD" ,color:"white"}}>🤝 Wave Me</button>
-                            </div>
+                        <div className="buttons1">
+                            <button className="btn button" style={{ background: "#0000CD", color: "white" }}>🤝 Wave Me</button>
+                        </div>
                     </div>
 
                 </div>
 
             </div>
+            <Design/>
+           
         </>
     )
 }
