@@ -1,0 +1,32 @@
+:root {
+  --purple: #8976F7;
+  --orange:#ea696e;
+  --text:#233e57;
+  --white:#fff;
+  --pink:#e74457;
+}
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  overflow: hidden;
+}
+.button{
+  width: 10rem;
+  height: 2.6rem;
+  background-color: var(--purple);
+  color: var(--white);
+  font-weight: 700 !important;
+  transition: all .4s;
+  border-radius: 3rem !important;
+  text-transform: uppercase;
+  border: none;
+}
+
+.button:hover{
+  background-color: var(--orange);
+  color: var(--white);
+}

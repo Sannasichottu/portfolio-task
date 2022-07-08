@@ -1,0 +1,266 @@
+.services{
+    background:#FFFFCC;
+    width: 100%;
+    padding: 25px 0px;
+}
+.title h4{
+    color: blue;
+    font-size: 20px;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+.title h2{
+    color: rgb(82, 78, 78);
+    font-size: 35px;
+    width: 780px;
+    margin: auto;
+    text-align: center;
+}
+
+.title p{
+    color: rgb(82, 78, 78);
+    padding-top: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    padding-top: 3rem;
+}
+
+.card1 {
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #eba338;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+.card1 img{
+    width: 25%;
+    height: 25%;
+    z-index: 10;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 60px 90px;
+}
+
+.card2 {
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #428088;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+.card2 img{
+    width: 25%;
+    height: 25%;
+    z-index: 10;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 60px 90px;
+}
+
+.card3 {
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #522753;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+.card3 img{
+    width: 25%;
+    height: 25%;
+    z-index: 10;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 60px 90px;
+}
+
+.card4 {
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #718ce6;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+.card4 img{
+    width: 25%;
+    height: 25%;
+    z-index: 10;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 60px 90px;
+}
+
+.card5 {
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #d67ce2;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+.card5 img{
+    width: 25%;
+    height: 25%;
+    z-index: 10;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 60px 90px;
+}
+
+.card6 {
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #da6447;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+.card6 img{
+    width: 25%;
+    height: 25%;
+    z-index: 10;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 60px 90px;
+}
+
+h5{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.pra p{
+    color:#dfdfc5;
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.button{
+    width: 8rem;
+    height: 2rem;
+    background-color: #b9fdec;
+    color: var(--text);
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 3rem;
+    transition: all .4s;
+}
+
+
+--------
+
+
+.h-wrapper1{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h-wrapper1 .row1{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h-left1 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    height: 80%;
+    padding-top: 6rem;
+    color: rgb(67, 68, 68);
+    
+}
+
+.h-left1 h2{
+    font-size: 3.8rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding-top:1rem;
+}
+
+.h-left{
+    height: 70%;
+    position:relative;
+}
+
+.h-right img{
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    position:absolute;
+    left: 3.4rem;
+    top: 4rem;
+}
+
+.v-player{
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+    cursor: pointer;
+}
+
+.player {
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    border-radius: 50%;
+    background: transparent;
+    color: #718ce6;
+}
+
+.v-player span{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: lightgray;
+}

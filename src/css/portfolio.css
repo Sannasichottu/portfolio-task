@@ -1,0 +1,142 @@
+.contain{
+    background-color:rgba(161, 164, 168, 0.507);
+    width: 100%;
+    min-height: 50%;
+    position: relative;
+    overflow: hidden;
+    padding: 20px 0px;
+}
+
+.b-wrapper{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.b-wrapper .row{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.b-left{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    height: 80%;
+    padding-top: 6rem;
+    padding-left: 3rem;
+    color:rgb(71, 70, 70);
+}
+
+.b-left h4{
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: .5px;
+    padding-top:1rem;
+    align-items: center;
+    text-align: center;
+}
+
+.b-left .subtitle{
+    font-size:20px;
+    font-weight: 300;
+    letter-spacing: .5px;
+    padding-bottom: 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+.b-left ul{
+    margin-left: -350px;
+}
+
+
+.b-left li{
+    color: rgba(128, 128, 128, 0.603);
+    font-size: 20px;
+    width: 230px;
+    margin-right: -100px;
+    padding: 10px;
+}
+
+.b-left h6{
+    color: blue;
+    font-size: 30px;
+    width: 500px;
+    padding: 2px;
+}
+
+.b-left p.head {
+    color: gray;
+    font-size: 30px;
+    width: 300px;
+    
+}
+
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+}
+.box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.box3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+/*
+.card{
+    height: 250px;
+    width:250px;
+    background-image: url(https://i.im.ge/2022/07/07/uWhjjc.png);
+    padding: 20px 35px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+
+}*/
+
+.card01, .card02, .card03, .card04, .card05, .card06{
+    background-image: url(https://i.im.ge/2022/07/07/uWhjjc.png);
+    background-repeat:inherit;
+    background-size:cover;
+    background-position:center;
+    width: 235px;
+    height: 180px;
+    padding: 20px 35px;
+    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    flex-direction: row;
+    z-index: 100;
+}
+
+.card02{
+    background-image: url(https://i.im.ge/2022/07/07/uWht4J.png);
+}
+
+.card03{
+    background-image: url(https://i.im.ge/2022/07/07/uWhAsy.png);
+}
+
+.card04{
+    background-image: url(https://i.im.ge/2022/07/07/uWh3O6.png);
+}
+
+.card05{
+    background-image: url(https://i.im.ge/2022/07/07/uWhYmF.png);
+    }
+
+.card06{
+    background-image: url(https://i.im.ge/2022/07/07/uWhbWK.png);
+}

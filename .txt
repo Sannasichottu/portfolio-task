@@ -1,0 +1,75 @@
+import React from "react";
+import '../css/portfolio.css'
+
+
+const Portfolio = () => {
+    return (
+        <>
+            <section>
+
+                <div className="container h-wrapper">
+                    <div className="row">
+                        {/* Left Side */}
+                        <div className="col-md-4 h-left">
+                            <h2>Provide You best<br />Best Ui Service</h2>
+                            <span>Mobile App Design and Development Studio. You can hire us</span>
+                            <div className="buttons">
+                                <button className="btn button" style={{ background: "#0000CD", color: "white" }}>🤝 Wave Me</button>
+                            </div>
+                        </div>
+                        {/* Right Side */}
+
+                        <div className="col-md-8 h-right">
+
+                        <div className="box">
+                    <div className="card1">
+                        <img src="https://i.im.ge/2022/07/07/uctogc.png" alt="WebsiteUI" />
+                        
+                    </div>
+
+                    <div className="card2">
+                        <img src="https://i.im.ge/2022/07/07/ugoEFL.png" alt="WebsiteUI" />
+                        
+                    </div>
+
+                </div>
+
+
+                <div className="box">
+                    <div className="card1">
+                        <img src="https://i.im.ge/2022/07/07/uctogc.png" alt="WebsiteUI" />
+                        
+                    </div>
+
+                    <div className="card2">
+                        <img src="https://i.im.ge/2022/07/07/ugoEFL.png" alt="WebsiteUI" />
+                        
+                    </div>
+
+                </div>
+
+                <div className="box">
+                    <div className="card1">
+                        <img src="https://i.im.ge/2022/07/07/uctogc.png" alt="WebsiteUI" />
+                    </div>
+
+                    <div className="card2">
+                        <img src="https://i.im.ge/2022/07/07/ugoEFL.png" alt="WebsiteUI" />
+                        
+                    </div>
+
+                </div>
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </>
+    )
+}
+
+export default Portfolio;
