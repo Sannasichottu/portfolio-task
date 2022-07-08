@@ -1,0 +1,128 @@
+.about{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/004/941/955/original/abstract-technology-geometric-and-connection-system-pink-and-blue-background-concept-with-digital-circuit-board-illustration-design-vector.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    width: 100%;
+    height: 130vh;
+    min-height: 100%;
+    position:relative;
+    overflow: hidden;
+}
+
+.title1 h3{
+    color: #ffffcc;
+    
+    font-size: 30px;
+    width: 600px;
+    width: 500px;
+    margin: auto;
+    padding-top: 5rem;
+    text-align: center;
+}
+
+.title1 p{
+    color:rgba(173, 162, 162, 0.555);
+    padding-top: 10px;
+    margin: auto;
+    font-size: 13px;
+    width: 450px;
+    text-align: center;
+}
+
+.title1 img{
+    width: 10%;
+    height: 10%;
+    z-index: 10;
+    display: flex;
+    text-align: center;
+    flex-wrap:nowrap;
+    padding: -50px;
+    margin-left:38rem;
+    margin-top: 7rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.des1 p{
+    color:rgba(209, 208, 208, 0.986);
+    padding-top: 30px;
+    margin: auto;
+    font-size: 15px;
+    width: 450px;
+    text-align: center;
+}
+
+.des1 h2{
+    color:rgba(94, 102, 219, 0.986);
+    padding-top: 30px;
+    margin: auto;
+    font-size: 15px;
+    width: 450px;
+    text-align: center;
+}
+
+.des1 span{
+    color:rgba(209, 208, 208, 0.986);
+    margin-top: 1rem;
+    margin: auto;
+    font-size: 13px;
+    width: 350px;
+    text-align: center;
+    justify-content: center;
+    margin-left:39.2rem;
+
+}
+
+.line {
+    border-style:solid ;
+    border-width: 1px;
+    margin-top: 4rem;
+    border-color:rgba(128, 128, 128, 0.671);
+}
+
+.about .row3 {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about .about-lef span{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20rem;
+    font-size: 13px;
+    gap: 1rem;
+    height: 80%;
+    padding-top: 3rem;
+    color: rgb(179, 175, 173);
+    
+}
+.about .about-lef h3{
+    display: flex;
+    font-weight: 2px;
+    font-size: 25px;
+    flex-direction: column;
+    margin-left: 20rem;
+    gap: 1rem;
+    height: 60%;        
+    color: white;
+}
+
+.about-right{
+    height: 70%;
+    position:relative;
+}
+
+.buttons1{
+    display: flex;
+    gap: 2rem;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    position:absolute;
+    left:53rem;
+    bottom: 3.5rem;
+}
