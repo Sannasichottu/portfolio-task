@@ -45,6 +45,8 @@
 .buttons{
     display:flex;
     gap: 2rem;
+    width: 10rem;
+    height: 3rem;
 }
 
 .h-right{

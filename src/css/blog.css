@@ -1,6 +1,7 @@
 .blog{
     width: 100%;
     padding: 25px 0px;
+    
 }
 
 .title3 h3{
@@ -18,6 +19,70 @@
     text-align: center;
 }
 
+/* Card */
+
+.box__body{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  padding-top: 3rem;
+}
+
+.card001, .card002 , .card003{
+  height:400px;
+    width: 300px;
+    padding: 20px 35px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    background-color:white;
+  box-shadow: 10px 5px 30px gray;
+
+}
+.card001 .card__img{
+ background-image: url(https://www.myg.in/images/thumbnails/735/400/blog/17/Top-10-Laptop-Brands.jpg);
+}
+
+.card002 .card__img{
+  background-image: url(https://images.unsplash.com/photo-1617042375876-a13e36732a04?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGRldmVsb3BlcnxlbnwwfHwwfHw%3D&w=1000&q=80);
+ }
+
+ .card003 .card__img{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0aIy0lT8_41Gs_PlQd8YO6URhVUJPBQi56g&usqp=CAU);
+ }
+
+.card__img{
+
+  width: 335px;
+  height: 280px;
+  z-index: 10;
+  flex-wrap: wrap;
+  margin: -33px -33px;
+  image-rendering: auto;
+}
+
+.card__title{
+  color: #4b4b4b;
+  font-size: 18px;
+  font-weight: 10px;
+  margin: auto;
+  padding-top:3rem;
+  text-align: left;
+  margin-left: -1.2rem;
+}
+
+.card__desc{
+  color:rgba(82, 82, 82, 0.781);
+    padding-top: 8px;
+    margin: left;
+    margin-left: -2rem;
+    font-size: 14px;
+}
+
+
 /* brands */
 
 .brands {
@@ -26,7 +91,7 @@
   .small-container{
     max-width: 1080px;
     margin: auto;
-    padding-left: 80px;
+    padding-left: 130px;
     padding-right: 80px;
   
   }

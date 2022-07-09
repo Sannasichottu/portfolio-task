@@ -4,30 +4,33 @@
     padding: 1rem 5rem;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items:center;
     background: transparent;
-    position: fixed;
+    position:absolute;
     top: 0;
     transition: ease-in-out .4s;
     z-index: 999;
 }
 
 ul{
+
     margin: 0;
     list-style-type: none;
     padding-left: 100%;
 }
 
 .logo span{
-    font-size: 1.6rem;
+    font-size: 3rem;
     font-weight: 700;
     color: var(--white);
     letter-spacing: 2px;
-    color: blue;
+    color: rgb(49, 37, 206);
+    align-items: right;
+    padding-left: 300px;
 }
 
 .logo p{
-    font-size: 1.6rem;
+    font-size: 3rem;
     color: var(--white);
     letter-spacing: 2px;
     color: gray;
@@ -37,14 +40,14 @@ ul{
     height: 100%;;
     width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    padding-right: -700px;
+    align-items: right;
     gap: 1.6rem;
-    color: var(--white);
+    color: white;
 }
 
 ul li{
-    font-size: 1.1rem;
+    font-size: 2rem;
     font-weight: 500;
     cursor:pointer;
     transition: all .2s;
@@ -55,12 +58,12 @@ ul li:hover{
 }
 
 .right button{
-    width: 8rem;
-    height: 2.4rem;
+    width: 10rem;
+    height: 3rem;
     background-color: orange;
-    color: var(--white);
-    font-weight: 500;
-    border-radius: 3rem;
+    color: white;
+    font-weight: 600;
+    border-radius: 4rem;
     transition: all .4s;
 }
 

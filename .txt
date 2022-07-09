@@ -1,21 +1,40 @@
-<div class="brands">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-5">
-                    <img src="images/logo-godrej.png">
-                </div>
-                <div class="col-5">
-                    <img src="images/logo-oppo.png">
-                </div>
-                <div class="col-5">
-                    <img src="images/logo-coca-cola.png">
-                </div>
-                <div class="col-5">
-                    <img src="images/logo-paypal.png">
-                </div>
-                <div class="col-5">
-                    <img src="images/logo-philips.png">
+ <div class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="footer-col-1">
+                            <h3>Web UiExpert</h3>
+                            <p>The full-stack design team who focuses
+                                on digital products whatever they are.
+                            </p>
+
+                        </div>
+                        <div class="footer-col-3">
+                            <h3>About Us</h3>
+                            <ul>
+                                <li>We're Hiring</li>
+                                <li>Our Customer</li>
+                                <li>Blog Post</li>
+                                <li>Help & Support</li>
+                            </ul>
+                        </div>
+
+                        <div class="footer-col-3">
+                            <h3>Community</h3>
+                            <ul>
+                                <li>About Us</li>
+                                <li>Our clients</li>
+                                <li>Legal notic</li>
+                            </ul>
+                        </div>
+                        <div class="footer-col-4">
+                            <h3>Contact</h3>
+                            <ul>
+                                <li>+123 456 789</li>
+                                <li>Contact Us</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr />
+                    <p class="copyright">© 2019 all rights reserved</p>
                 </div>
             </div>
-        </div>
-    </div>

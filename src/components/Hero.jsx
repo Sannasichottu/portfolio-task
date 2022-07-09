@@ -7,6 +7,7 @@ import Sucess from "./Sucess";
 import About from "./About";
 import Workflow from "./Workflow";
 import Blog from "./Blog";
+import Footer from "./Footer";
 
 const Hero = () => {
     return(
@@ -37,6 +38,7 @@ const Hero = () => {
             <About />
             <Workflow />
             <Blog />
+            <Footer />
         </>
     )
 }

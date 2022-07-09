@@ -24,7 +24,7 @@
     position: relative;
     overflow: hidden;
     text-align: center;
-    
+    border-radius: 10px;
 }
 
 .card-a1{

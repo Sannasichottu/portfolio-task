@@ -3,11 +3,11 @@ import '../css/navbar.css';
 
 const Navbar = () => {
     return (
-        <>  
-          
+        <>
+
             <nav className='navbar'>
                 <div className="logo">
-                     <p><span>Web</span>UiExpert</p>
+                    <p><span>Web</span>UiExpert</p>
                 </div>
                 <div className="nav-items">
                     <ul>
@@ -22,7 +22,7 @@ const Navbar = () => {
                     <button className='btn login'>LOG IN</button>
                 </div>
             </nav>
-            
+
         </>
     )
 }
