@@ -1,3 +1,60 @@
+.dst1{
+    width: 100%;
+    min-height: 50%;
+    position: relative;
+    overflow: hidden;
+    padding: 20px 0px;
+}
+
+.box-a1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    padding-top: 3rem;
+    
+}
+
+.card-b1, .card-b2, .card-b3{
+    height: 300px;
+    width: 285px;
+    padding: 20px 35px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 10px;
+    
+  box-shadow: 1px 1px 1px 2px rgb(216, 204, 204);
+}
+
+
+.card-b1 img,.card-b2 img, .card-b3 img{
+    width: 25%;
+    height: 20%;
+    z-index: 10;
+    display: flex;
+    text-align:right;
+    flex-wrap: wrap;
+    margin: 30px 30px;
+}
+
+.card-b1 h5, .card-b2 h5, .card-b3 h5{
+    color:white;
+    font-size: 30px;
+    margin-top:-1.8rem;
+    margin-left: -4.4rem;
+}
+
+.card-b1 p,.card-b2 p,.card-b3 p{
+    color:#dfdfc5;
+    font-size: 23px;
+    margin-top: -1rem;
+
+}
+
+
+
 .sucess{
     width: 100%;
     padding: 25px 0px;
@@ -17,6 +74,7 @@
     margin: auto;
     text-align: center;
 }
+
 
 
 .box0{

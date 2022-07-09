@@ -3,11 +3,12 @@ import Navbar from "./Navbar";
 import '../css/hero.css'
 import Service from "./Service";
 import Portfolio from "./Portfolio";
-import Sucess from "./Sucess";
 import About from "./About";
 import Workflow from "./Workflow";
 import Blog from "./Blog";
 import Footer from "./Footer";
+import Success1 from "./Success1";
+//import Sucess from "./Sucess";
 
 const Hero = () => {
     return(
@@ -34,7 +35,8 @@ const Hero = () => {
             </section>
             <Service />
             <Portfolio />
-            <Sucess />
+            
+            <Success1 />
             <About />
             <Workflow />
             <Blog />
