@@ -10,6 +10,7 @@
     top: 0;
     transition: ease-in-out .4s;
     z-index: 999;
+    
 }
 
 ul{
@@ -26,23 +27,25 @@ ul{
     letter-spacing: 2px;
     color: rgb(49, 37, 206);
     align-items: right;
-    padding-left: 300px;
+    padding-left: 160px;
+   
+    margin-top: 10px;
 }
 
 .logo p{
     font-size: 3rem;
+   
     color: var(--white);
     letter-spacing: 2px;
     color: gray;
 }
 
 .nav-items ul{
-    height: 100%;;
+    height: 100%;
     width: 100%;
+    padding-right: -30px;
     display: flex;
-    padding-right: -700px;
-    align-items: right;
-    gap: 1.6rem;
+    gap: 1rem;
     color: white;
 }
 

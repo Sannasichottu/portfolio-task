@@ -8,6 +8,7 @@ import Workflow from "./Workflow";
 import Blog from "./Blog";
 import Footer from "./Footer";
 import Success1 from "./Success1";
+import Contact from "./Contact";
 //import Sucess from "./Sucess";
 
 const Hero = () => {
@@ -35,12 +36,12 @@ const Hero = () => {
             </section>
             <Service />
             <Portfolio />
-            
             <Success1 />
             <About />
             <Workflow />
             <Blog />
             <Footer />
+            <Contact />
         </>
     )
 }
